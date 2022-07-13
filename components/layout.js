@@ -11,6 +11,7 @@ export default function Layout({ children }) {
       <style jsx global>{`
         html,
         body {
+          background-color: #ebeae5;
           padding: 0;
           margin: 0;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,

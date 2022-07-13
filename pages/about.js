@@ -3,7 +3,7 @@ import { SpikeySticker } from "../components/spikey-sticker";
 export default function About() {
   return (
     <div className="container">
-      <main>
+      <main className="about-main">
         <h2 className="title">☺ Hi there</h2>
         <div className="about-text-main">
           <p className="about-text-section_1">
@@ -55,14 +55,13 @@ export default function About() {
       <style jsx>
         {`
           .container {
-            padding: 0 0.5rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
           }
 
-          main {
+          .about-main {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -79,12 +78,14 @@ export default function About() {
             margin: auto;
             margin-left: 2em;
             margin-top: 1em;
+            color: #131314;
           }
 
           .about-text-main {
             width: 83%;
             display: flex;
             flex-direction: column;
+            color: #131314;
           }
 
           .about-text-section_1 {
@@ -103,53 +104,59 @@ export default function About() {
 
           .about-text-main p {
             font-family: GT Maru Trial;
-            font-size: 2.5em;
+            font-size: 2.6em;
+            color: 131314;
           }
 
           .about-text-main span {
             font-family: GT Alpina Typewriter Italic VAR Trial;
+            color: #462f46;
           }
 
           .definitions-list-main {
-            width: 25%;
+            width: 21%;
             font-size: 1.3em;
-            text-align: left;
+            text-align: justify;
             list-style: none;
             padding: 0;
             margin: 0;
-            position: relative;
-            left: 22em;
-            bottom: 25em;
+            position: absolute;
+            right: 6em;
+            bottom: -10em;
           }
 
           .definitions-list-main li {
             font-family: GT Alpina Typewriter Italic VAR Trial;
-            font-size: 1.1em;
+            font-size: 1.2em;
+            color: #131314;
+            font-weight: 400;
           }
 
           .definitions-list-main span {
             font-weight: 500;
-            opacity: 85%;
+            opacity: 50%;
             font-size: 0.7em;
+            font-family: GT Maru Trial;
           }
 
           .definitions-list-main p {
             font-family: GT Maru Trial;
             font-size: 0.8em;
             margin-top: 0.3em;
+            color: #462f46;
           }
 
           .about-sticker-main {
-            position: relative;
-            bottom: 65em;
-            left: 7em;
+            position: absolute;
             transform: scale(0.5);
+            top: 25em;
+            right: 23em;
           }
 
           .sticker-title {
             position: absolute;
-            top: 1.3em;
-            left: 2.3em;
+            top: 1.35em;
+            left: 2.35em;
             font-size: 3.7em;
             width: 40%;
             text-align: center;
