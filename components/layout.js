@@ -1,11 +1,15 @@
 import { Navigation } from "./navigation";
 import { Footer } from "./footer";
+import CustomCursor from "./custom-cursor";
 
 export default function Layout({ children }) {
   return (
     <>
       <Navigation />
-      <main>{children}</main>
+      <main>
+        <CustomCursor />
+        {children}
+      </main>
       {/* <Footer /> */}
 
       <style jsx global>{`
@@ -21,6 +25,7 @@ export default function Layout({ children }) {
 
         * {
           box-sizing: border-box;
+          cursor: none;
         }
       `}</style>
     </>
