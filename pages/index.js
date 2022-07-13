@@ -30,7 +30,7 @@ export default function Home() {
 
       <style jsx>{`
         .container {
-          min-height: 100vh;
+          min-height: 90vh;
           padding: 0 0.5rem;
           display: flex;
           flex-direction: column;
@@ -59,16 +59,18 @@ export default function Home() {
           margin: 0;
           padding: 0;
           position: relative;
-          left: -28.5em;
-          bottom: 0;
+          left: -28em;
+          bottom: 1em;
         }
 
         .colour-index {
           margin: 2em;
           position: relative;
-          left: 39em;
+          left: 37em;
+          bottom: 1.5em;
           display: flex;
           flex-direction: row;
+          border: solid 1px black;
         }
 
         #colour-red {
