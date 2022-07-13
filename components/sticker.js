@@ -23,8 +23,6 @@ export const Sticker = () => {
 
         <svg height={110} width={120} viewBox="0, -50 , 100, 170">
           <path
-            class="stroke noscaling"
-            vector-effect="non-scaling-stroke"
             d="M299.365,4112.217c19.4377-17.5258,48.10309-10.61164,48.10309,17.47893,0,13.34813-13.00694,25.79268-22.72779,19.16591-16.37453-11.16263,14.78039-51.586,72.77484-34.06023"
             transform="translate(-281 -4057)"
             fill="none"
