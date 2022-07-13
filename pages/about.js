@@ -124,7 +124,7 @@ export default function About() {
 
           .definitions-list-main li {
             font-family: GT Alpina Typewriter Italic VAR Trial;
-            font-size: 1.3em;
+            font-size: 1.1em;
           }
 
           .definitions-list-main span {
